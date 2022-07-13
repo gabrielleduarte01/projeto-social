@@ -39,3 +39,22 @@ iframe#tela { /* para a imagem dentro do iphone ficar certa*/
     width: 269px;
     height: 471px;
 }
+
+section#redes-sociais {
+    text-align: left;
+}
+
+section#redes-sociais img {
+    width: 50px; 
+    margin: 10px;
+    border-radius: 50%; /*para os botões ficarem redondos*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.491);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.592);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.611);
+    transition: transform 0.2s, border 0.2s;
+}
