@@ -42,6 +42,8 @@ iframe#tela { /* para a imagem dentro do iphone ficar certa*/
 
 section#redes-sociais {
     text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 
 section#redes-sociais img {
